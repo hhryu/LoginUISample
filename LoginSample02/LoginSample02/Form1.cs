@@ -34,7 +34,6 @@ namespace LoginSample02
         {
             this.pn_main.MouseDown += MoveFrm;
             this.pn_top2.MouseDown += MoveFrm;
-            var t = new CueTextBox();
         }
 
         private void MoveFrm(object sender, MouseEventArgs e)
